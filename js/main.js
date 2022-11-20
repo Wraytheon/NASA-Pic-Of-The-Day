@@ -10,17 +10,13 @@ function getFetch () {
                     /*Gets query value from date input*/
     .then((res) => res.json()) // parse response as JSON
     .then((data) => {
-      //!video vs image logic
-      format = data.media_type;
-      if (format === "video") {
-        document.querySelector("embed").src = data.url;
-      } else if (format === "image"){
-        document.querySelector("img").src = data.url;
-      }
+
       console.log(data);
+      document.querySelector("embed").src = data.url
       document.querySelector("h2").innerText = data.title;
       document.querySelector("h3").innerText = data.explanation;
 
+      //? clear last search
     })
     .catch((err) => {
       console.log(`error ${err}`);
