@@ -1,6 +1,7 @@
 document.querySelector("button").addEventListener("click", getDrink)
 
 function getDrink () {
+  let date = document.querySelector("input").value;
 
   fetch(`https://api.nasa.gov/planetary/apod`)
                     /*Gets query value from date input*/
