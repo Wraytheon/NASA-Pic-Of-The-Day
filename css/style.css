@@ -7,20 +7,17 @@
   box-sizing: border-box;
 }
 
-/******************************************
-/* LAYOUT
-/*******************************************/
-img{
-  display: block;
-  margin: 0 auto;
-  width: 300px;
+html {
+  font-size: 62.5%;
 }
 
-
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
-embed {
+body {
+  font-size: 1.6rem;
   width: 100vw;
+  max-width: 100%;
+}
+
+embed {
+  width: 80vw;
   max-width: 100%;
 }
