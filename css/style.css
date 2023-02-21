@@ -1,5 +1,5 @@
 /******************************************
-/* CSS
+/* Base styles
 /*******************************************/
 
 /* Apply box-sizing to all elements */
@@ -29,13 +29,14 @@ body {
   max-height: 100vh;
   max-width: 100vw;
 }
-
+h1 {
+  text-align: center;
+}
+.input-container {
+  text-align: center;
+}
 .hide {
   display: none;
-}
-.wrapper{
-  margin: 0 auto;
-  text-align: center;
 }
 
 .results-container {
