@@ -19,6 +19,8 @@ html {
 body {
   font-size: 1.6rem;
   overflow: hidden;
+  background-image: url(/nasa-Pic-Of-The-Day/images/starry-bg.jpg);
+  color: white;
 }
 
 /*Ensure layout displays properly across screen sizes*/
@@ -35,6 +37,7 @@ h1 {
 .input-container {
   text-align: center;
 }
+
 .hide {
   display: none;
 }
