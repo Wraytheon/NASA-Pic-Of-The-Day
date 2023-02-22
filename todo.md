@@ -1,6 +1,6 @@
 # To Do
 
-- [] Styling
-  - Starry bg w white circle cutout around input?
-- [] Remove "name" and "description" before input processed
-- [] Add readme
+- [x] Styling
+- [x] Remove "name" and "description" before input processed
+- [ ] Add readme
+- [ ] account for video not being removed after new date picked
