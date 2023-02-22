@@ -38,7 +38,6 @@ h1 {
 }
 
 .shine {
-  background-color: white;
   /* box-shadow: 0 0 2rem .5rem #8F00FF; */
   box-shadow:
   0 0 .6rem .5rem #fff,  /* inner white */
@@ -61,6 +60,7 @@ h1 {
   margin: 3rem 0;
 }
 .text-container {
+  background-color: white;
   max-width: 30vw;
   padding: 1rem 2rem;
 }
@@ -70,7 +70,6 @@ h1 {
   max-width: 65vw;
   max-height: 70vh;
   padding: 0;
-  overflow: hidden;
 }
 embed {
   max-width: 100%;
