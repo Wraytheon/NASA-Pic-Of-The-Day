@@ -1,5 +1,13 @@
+function setMaxDate () {
+  const dateInput = document.querySelector("input");
+  const today = new Date().toISOString().split("T")[0];
+  dateInput.value = today;
+  dateInput.setAttribute("max", today);
+  getFetch()
+}
 document.querySelector("button").addEventListener("click", getFetch)
-// document.addEventListener("enter", getFetch)
+window.addEventListener("load", setMaxDate)
+
 const key = config.secret;
 function getFetch () {
   const dateInput = document.querySelector("input").value;
@@ -14,7 +22,7 @@ function getFetch () {
       console.log(data);
       document.querySelector("embed").src = data.url
       document.querySelector("h2").innerText = data.title;
-      document.querySelector("h3").innerText = data.explanation;
+      document.querySelector(".description").textContent = data.explanation;
 
       //? clear last search
     })
