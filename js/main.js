@@ -8,10 +8,11 @@ function setMaxDate () {
 document.querySelector("button").addEventListener("click", getFetch)
 window.addEventListener("load", setMaxDate)
 
-const key = config.secret;
+
 function getFetch () {
   const dateInput = document.querySelector("input").value;
   let dateQuery = "&date=" + dateInput
+  const key = config.secret;
 
 
   fetch(`https://api.nasa.gov/planetary/apod${key}${dateQuery}`)
