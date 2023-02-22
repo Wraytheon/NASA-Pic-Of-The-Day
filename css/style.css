@@ -31,10 +31,22 @@ body {
   max-height: 100vh;
   max-width: 100vw;
 }
+
+.wrapper {
+  padding: 1rem 1rem;
+}
 h1 {
   text-align: center;
   font-family: 'Orbitron', sans-serif;
   color: white;
+  margin-top: .5rem;
+}
+h2 {
+  color: white;
+  text-align: center;
+}
+p {
+  line-height: 1.5;
 }
 
 .shine {
@@ -54,14 +66,17 @@ h1 {
 }
 
 
-.results-container {
+.main-results-container{
   display: flex;
-  justify-content: space-around;
-  margin: 3rem 0;
+  margin: 2rem 0;
+  max-height: 70vh;
+  max-width: 95vw;
 }
 .text-container {
+  flex: 1 0 auto;
   background-color: white;
-  max-width: 30vw;
+  max-width: 55vw;
+  max-height: 70vh;
   padding: 1rem 2rem;
 }
 
@@ -72,7 +87,8 @@ h1 {
   padding: 0;
 }
 embed {
-  max-width: 100%;
+  flex: 2 0 auto;
+  /* max-width: 100%; */
   max-height: 100%;
   object-fit: contain;
 }
