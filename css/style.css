@@ -68,6 +68,20 @@ p {
 .input-container {
   text-align: center;
 }
+label {
+  background-color: white;
+  padding: .3rem .6rem;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
 input {
   padding: .25rem .5rem;
 }
