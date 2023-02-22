@@ -18,7 +18,6 @@ html {
 }
 body {
   font-size: 1.6rem;
-  overflow: hidden;
   background-image: url(/nasa-Pic-Of-The-Day/images/starry-bg.jpg);
   font-family: Helvetica, Arial, sans-serif;
 }
@@ -37,9 +36,9 @@ body {
 }
 h1 {
   text-align: center;
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
   color: white;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 h2 {
   color: white;
@@ -47,14 +46,13 @@ h2 {
 }
 p {
   line-height: 1.5;
+  font-size: 1.3vw;
 }
 
 .shine {
   /* box-shadow: 0 0 2rem .5rem #8F00FF; */
-  box-shadow:
-  0 0 .6rem .5rem #fff,  /* inner white */
-  0 0 .8rem .6rem #f0f, /* middle magenta */
-  0 0 2rem .7rem #0ff; /* outer cyan */
+  box-shadow: 0 0 0.6rem 0.5rem #fff, /* inner white */ 0 0 0.8rem 0.6rem #f0f,
+    /* middle magenta */ 0 0 2rem 0.7rem #0ff; /* outer cyan */
 }
 
 .hide {
@@ -64,49 +62,37 @@ p {
 .input-container {
   text-align: center;
 }
+.results-container {
+  max-height: 80vh;
+}
 
-
-.main-results-container{
+.main-results-container {
   display: flex;
-  margin: 2rem 0;
+  margin: 2rem auto;
   max-height: 70vh;
   max-width: 95vw;
+  background-color: white;
 }
 .text-container {
   flex: 1 0 auto;
   background-color: white;
   max-width: 55vw;
   max-height: 70vh;
-  padding: 1rem 2rem;
+  padding: 1rem 3.5rem;
 }
 
 .embed-container {
   width: 100%;
-  max-width: 65vw;
+  max-width: 70%;
   max-height: 70vh;
   padding: 0;
+  display: flex;
 }
 embed {
   flex: 2 0 auto;
   /* max-width: 100%; */
   max-height: 100%;
+  max-width: 100%;
   object-fit: contain;
 }
-/* .embed-container {
-  position: relative;
-  width: 100%;
-  max-width: 65vw;
-  padding-top: 0;
-  max-height: 70vh;
-}
-
-.embed-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-} */
-
 
