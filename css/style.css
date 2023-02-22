@@ -18,7 +18,7 @@ html {
 }
 body {
   font-size: 1.6rem;
-  background-image: url(/nasa-Pic-Of-The-Day/images/starry-bg.jpg);
+  background-image: url(../images/starry-bg.jpg);
   font-family: Helvetica, Arial, sans-serif;
 }
 
