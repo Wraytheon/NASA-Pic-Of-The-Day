@@ -14,6 +14,8 @@ The following technologies were used to build this application:
 - Choose a date to view the NASA Astronomy Picture of The Day
 
 ### Usage
+[Click here to view live demo](https://wraytheon.github.io/boredom-Solver-API/)
+
 To utilize this application simply pick a date to view the picture of the day from that date.
 
 #### Credits
